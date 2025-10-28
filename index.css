@@ -43,32 +43,6 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
-  display: flex;
-  gap: 110px;
-  padding: 50px 165px;
-  justify-content: space-between;
-  
-}
-
-.title {
-  font-size: 42px;
-}
-
-.copy {
-  font-size: 20px;
-}
-
-.image-block {
-  display: flex;
-  justify-content: center;
-
-}
-
-.image-block img {
-  height: 100%;
-}
-
 .nav-list {
   display: flex;
   justify-content: space-between;
@@ -89,4 +63,29 @@ a {
   background: lightgray;
 }
 
+.download__wrapper {
+  display: flex;
+  gap: 110px;
+  padding: 50px 165px;
+  justify-content: space-between;
+  
+}
+
+.download__title {
+  font-size: 42px;
+}
+
+.download__copy {
+  font-size: 20px;
+}
+
+.download__image-block {
+  display: flex;
+  justify-content: center;
+
+}
+
+.download__image-block img {
+  height: 100%;
+}
 
