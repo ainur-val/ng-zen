@@ -1,0 +1,38 @@
+.footer {
+  background-color: #484848;
+  color: #FFFFFF;
+}
+
+ul { 
+  list-style-type: none;
+  color: #FFFFFF;
+}
+
+.footer__columns {
+  display: flex;
+  padding: 3% 9%;
+  justify-content: space-between;
+}
+
+.footer__column {
+  text-align: left;
+}
+
+.column-list {
+  padding-left: 0; 
+}
+
+.column-list-item {
+  margin-bottom: 9%;
+}
+
+.column-list-link {
+  color: #FFFFFF;
+}
+
+.footer__info {
+  display: flex;
+  padding: 0% 9% 3% 9%;
+  justify-content: space-between;
+}
+

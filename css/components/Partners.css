@@ -1,0 +1,24 @@
+.partners__wrapper {
+  display: flex;
+  padding: 3% 9%;
+  align-items: center;
+  
+}
+
+.partners__link {
+  flex: 1 0 auto; 
+  min-width: 130px;
+}
+
+.partners__image-block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  width: 100%;
+  gap: 4%;
+}
+
+.partners__image-block img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

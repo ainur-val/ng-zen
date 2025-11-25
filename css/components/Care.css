@@ -1,0 +1,36 @@
+.care__wrapper {
+  display: flex;
+  gap: 10%;
+  padding: 3% 9%;
+  align-items: center;
+  
+}
+
+.care__title {
+  font-size: 56px;
+  line-height: auto;
+}
+
+.care__copy {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.care__text-block,
+.care__image-block {
+  flex: 1 1 45%;
+}
+
+.care__image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.care__image-block img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
