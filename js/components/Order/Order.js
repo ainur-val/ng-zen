@@ -15,18 +15,28 @@ export const Order = () => {
     console.log('Согласие с политикой:', data.agree ? 'Да' : 'Нет');
 
     const overlay = document.querySelector('.order__overlay');
-    overlay.style.display = 'none';
+    if(overlay) {
+      overlay.style.display = 'none';
+    }
+    
+    event.target.reset();
+
   };
 
   const initOrder = () => {
     const form = document.getElementById('order__form');
-    form.addEventListener('submit', handleFormSubmit);
-    
     const order__close = document.querySelector('.order__close');
-    order__close.addEventListener('click', () => {
-      const overlay = document.querySelector('.order__overlay');
+    const overlay = document.querySelector('.order__overlay');
+
+    if (form && order__close && overlay){
+      form.addEventListener('submit', handleFormSubmit);
+      order__close.addEventListener('click', () => {
       overlay.style.display = 'none';
+      form.reset();
     })
+    }
+
+    
 
   };
 
@@ -35,7 +45,7 @@ export const Order = () => {
   return /* html */ `
     <div class="order__overlay">
       <div class="order" id="order">
-      <img class="order__close" src="http://127.0.0.1:5500/assets/icons/close.svg" alt="Button close">
+      <img class="order__close" src="http://127.0.0.1:5501/assets/icons/close.svg" alt="Button close">
         <div class="order__wrapper">
           <form id="order__form">
             <h2 class="order__title">Order a consultation</h2>

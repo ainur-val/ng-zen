@@ -67,7 +67,7 @@ export const Footer = () => {
         <div class="footer__column">
           <h2 class="column-title">Follow us</h2>
           <a class="column-link">
-            <img src="http://127.0.0.1:5500/assets/icons/in.svg" alt="Button IN">
+            <img src="http://127.0.0.1:5501/assets/icons/in.svg" alt="Button IN">
           </a>
         </div>
 
@@ -80,7 +80,7 @@ export const Footer = () => {
       <div class="footer__info">
         <div class="footer__text-block">
           <a class="footer__logo" href="/">
-          <img src="http://127.0.0.1:5500/assets/images/group.png" alt="Zen icon">
+          <img src="http://127.0.0.1:5501/assets/images/group.png" alt="Zen icon">
           </a>
           <p class="footer__copy">ZEN.COM is a licensed financial institution under the supervision of the Central Bank of Lithuania approved by European Banking Authority for 31 countries.</p>
           <p class="footer__copy">Registration number of the company 304749651, VAT ID LT100011714916.</p>
@@ -90,7 +90,7 @@ export const Footer = () => {
           <p class="footer__copy">Sales Office: ul. Emilii Plater 53, 00-113 Warsaw, Poland.</p>
         </div>
         <div class="footer__image-block">
-          <img src="http://127.0.0.1:5500/assets/images/copyright.png" alt="Logo copyright">
+          <img src="http://127.0.0.1:5501/assets/images/copyright.png" alt="Logo copyright">
         </div>
       </div>
     </div>

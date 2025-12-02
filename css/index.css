@@ -1,24 +1,22 @@
 @font-face {
-  font-family: 'Nunito';
-  src: url('http://127.0.0.1:5500/assets/fonts/Nunito-Regular.ttf') format('ttf');
+  font-family: "Nunito";
+  src: url("http://127.0.0.1:5501/assets/fonts/Nunito-Regular.ttf")
+    format("ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url('http://127.0.0.1:5500/assets/fonts/Nunito-Bold.ttf') format('ttf');
+  font-family: "Nunito";
+  src: url("http://127.0.0.1:5501/assets/fonts/Nunito-Bold.ttf") format("ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
-
-
-
